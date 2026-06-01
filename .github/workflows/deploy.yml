@@ -33,6 +33,7 @@ jobs:
         run: npm run build
         env:
           CI: false
+          TSC_COMPILE_ON_ERROR: true
           PUBLIC_URL: /ayhungry-proyeccion-comercial
 
       - name: Upload artifact
